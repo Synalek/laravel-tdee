@@ -1,6 +1,6 @@
 <?php
 
-namespace Synalek\ServiceProviders;
+namespace Synalek\Tdee\ServiceProviders;
 
 use isfonzar\TDEECalculator\LBMCalculator;
 

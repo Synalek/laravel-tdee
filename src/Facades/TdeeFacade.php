@@ -1,6 +1,6 @@
 <?php
 
-namespace Synalek\Facade\Tdee;
+namespace Synalek\Tdee\Facades;
 
 class TdeeFacade extends \Illuminate\Support\Facades\Facade
 {
