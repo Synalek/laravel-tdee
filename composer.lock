@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "01daa12c2cb9f6fa41c055670f653bc0",
+    "packages": [
+        {
+            "name": "isfonzar/tdee-calculator",
+            "version": "v1.01",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/isfonzar/tdee-calculator.git",
+                "reference": "cf5728e7ecfdb6dbe26946e508a6ddefd856d748"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/isfonzar/tdee-calculator/zipball/cf5728e7ecfdb6dbe26946e508a6ddefd856d748",
+                "reference": "cf5728e7ecfdb6dbe26946e508a6ddefd856d748",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "isfonzar\\TDEECalculator\\": "src/",
+                    "isfonzar\\TDEECalculator\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "isfonzar",
+                    "email": "icaro.isf@gmail.com"
+                }
+            ],
+            "description": "Total Daily Energy Expenditure (TDEE) Calculator",
+            "time": "2017-02-25T21:36:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

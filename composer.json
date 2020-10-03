@@ -1,0 +1,32 @@
+{
+    "name": "synalek/laravel-tdee",
+    "description": "Laravel Framework - Service provider for the TDEE calculator by isfonzar",
+    "keywords": ["laravel", "tdee", "lbm"],
+    "require": {
+        "isfonzar/tdee-calculator": "^1.01"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Synalek",
+            "email": "syynalek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Synalek\\Tdee\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Synalek\\Tdee\\ServiceProviders\\TdeeServiceProvider",
+                "Synalek\\Tdee\\ServiceProviders\\LbmServiceProvider"
+            ],
+            "aliases": {
+                "Tdee": "Synalek\\Tdee\\Facades\\TdeeFacade",
+                "Lbm": "Synalek\\Tdee\\Facades\\LbmFacade"
+            }
+        }
+    }
+}
