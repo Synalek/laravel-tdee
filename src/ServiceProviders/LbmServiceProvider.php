@@ -14,7 +14,7 @@ class LbmServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/config/tdee.php',
+            __DIR__ . '../config/tdee.php',
             'tdee'
         );
 
