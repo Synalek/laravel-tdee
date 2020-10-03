@@ -19,7 +19,10 @@ class TdeeServiceProvider extends \Illuminate\Support\ServiceProvider
         );
 
         $this->app->bind('tdee', function ($app) {
-            return new TDEECalculator([config('tdee.unit']));
+            return new TDEECalculator([
+                'unit' =>  config('tdee.unit')
+                ]
+            );
         });
 
         $this->app->alias('tdee', TDEECalculator::class);

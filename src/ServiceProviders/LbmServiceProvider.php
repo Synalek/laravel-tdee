@@ -19,7 +19,10 @@ class LbmServiceProvider extends \Illuminate\Support\ServiceProvider
         );
 
         $this->app->bind('lbm', function ($app) {
-            return new LBMCalculator([config('tdee.unit')]);
+            return new LBMCalculator([
+                'unit' =>  config('tdee.unit')
+                ]
+            );
         });
 
         $this->app->alias('lbm', LBMCalculator::class);
