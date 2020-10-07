@@ -3,7 +3,7 @@
     "description": "Laravel Framework - Service provider for the TDEE calculator by isfonzar",
     "keywords": ["laravel", "tdee", "lbm"],
     "require": {
-        "isfonzar/tdee-calculator": "^1.01"
+        "isfonzar/tdee-calculator": "1.1"
     },
     "license": "MIT",
     "authors": [
